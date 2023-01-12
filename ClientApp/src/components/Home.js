@@ -11,7 +11,7 @@ export class Home extends Component {
             <h3>Здарова</h3>
             <h3>Здарова</h3>
             <h3>Здарова</h3>
-            <h3>Здарова</h3>
+            <h3>Poka</h3>
       </div>
     );
   }
