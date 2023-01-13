@@ -1,6 +1,6 @@
 namespace Chat_Ract_ASP.NET
 {
-    public class WeatherForecast
+    public struct WeatherForecast
     {
         public DateTime Date { get; set; }
 

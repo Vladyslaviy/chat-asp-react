@@ -20,8 +20,12 @@
 
   <ItemGroup>
     <!-- Don't publish the SPA source files, but do show them in the project files list -->
+    <Compile Remove=".github - Copy\**" />
     <Content Remove="$(SpaRoot)**" />
+    <Content Remove=".github - Copy\**" />
+    <EmbeddedResource Remove=".github - Copy\**" />
     <None Remove="$(SpaRoot)**" />
+    <None Remove=".github - Copy\**" />
     <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**" />
   </ItemGroup>
 
